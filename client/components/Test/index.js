@@ -21,10 +21,9 @@ class Test extends React.Component {
     if (count === 5) {
       throw new Error('aa');
     }
-    return [
-      <p>aaa</p>,
-      <p>ccc</p>,
-    ];
+    return (
+      <div>test</div>
+    );
   }
 }
 

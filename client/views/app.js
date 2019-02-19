@@ -5,7 +5,7 @@ import Routes from '../config/router';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Test from '../components/Test';
 
-export default class App extends Component {
+class App extends Component {
   componentDidMount() {
   }
 
@@ -25,3 +25,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default App;
