@@ -84,6 +84,7 @@ if (isDev) {
       __dirname,
       '../dist'
     ),
+    noInfo: true,
     // 启动热刷新
     hot: true,
     // 自动打开浏览器
